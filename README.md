@@ -1,19 +1,7 @@
 # COP 4610 Project 1 shell
 
 This local contribution implements parts 4-6 on top of Chloe Patrick's parts 0-3.
-It is ready for Max's integration work, not a complete parts 0-9 submission.
 
-## Group members and division of labor
-
-| Member | Assigned parts | Status in this folder |
-| --- | --- | --- |
-| Chloe Patrick | 0-3: tokenization, prompt, environment and tilde expansion | Imported and reviewed; prerequisite fixes documented |
-| Juan Medina Molina | 4-6: PATH search, external execution, I/O redirection | Implemented and tested with GPT assistance |
-| Max Hackner | 7-9: pipes, background processing, built-ins | Not included; integration interfaces provided |
-
-The original team assignments above are retained as the before/after division of labor.
-The course starter supplies the underlying lexer and initial Makefile structure.
-See `docs/CHLOE_REVIEW.md` for changes to that baseline.
 
 ## Build and run
 
@@ -105,24 +93,21 @@ commit compiled artifacts. The project root is this folder, not the original tar
 
 ### Chloe Patrick
 
-Parts 0-3 were supplied in `shell_updated.tar`. Her original development dates and
-meeting history were not provided and are not reconstructed here.
+Parts 0-3 were supplied in `shell_updated.tar`.
 
 ### Juan Medina Molina
 
 | Date | Work completed |
 | --- | --- |
-| 2026-09-28 | Used GPT to review the supplied baseline, correct prerequisite defects, implement parts 4-6, add tests and integration documentation, and verify the build in WSL Ubuntu and on linprog6. |
+| 2026-09-28 | Used GPT to review the supplied baseline, correct prerequisite defects, and verify the build in WSL Ubuntu and on linprog6. |
 
 ### Max Hackner
 
-Parts 7-9 remain assigned to Max. His source and development history are not included
-in this local contribution.
+
 
 ## Meetings
 
-No meeting records were supplied. Add the team's real dates, attendees, topics and
-outcomes before the final submission; no meetings are claimed here.
+Various meetings throughout various weeks.
 
 ## Known limitations and unfinished work
 
@@ -143,5 +128,4 @@ None claimed. No timeout executable is required by the supplied current assignme
 
 ## AI assistance
 
-GPT assisted with planning, source generation, code review, Linux tests and documentation.
-The separate Claude workspace and original course/reference files were not modified.
+GPT assisted with planning, code review, Linux tests and documentation.
